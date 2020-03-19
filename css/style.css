@@ -61,7 +61,7 @@
 .block1 ul{
 	display: flex;
 	flex-direction: row;
-	margin-left: 70px;
+	margin-left: 50px;
 	margin-right: 180px;
 
 	justify-content: space-between;
@@ -80,13 +80,13 @@
 
 .photo img{
 	
-	margin-top: 40px;
-	margin-left: 75px;
+	margin-top: 15px;
+	margin-left: 30px;
 }
 .photo button{
 	
 	background-color: #6c757d;
-	margin-left: 90px;
+	margin-left: 60px;
 	width: 180px;
 	height: 40px;
 	color: #fff;
@@ -95,7 +95,8 @@
 }
 
 .changes{
-	margin-right: 280px;
+	margin-left: 15px;
+	margin-right: 30px;
 	display: flex;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -105,13 +106,37 @@
 }
 .changes input{
 	padding-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	width: 500px;
 	height: 45px;
 }
 
 .changes button{
-	margin-top: 10px;
+	margin-top: 15px;
+	height: 45px;
+	background-color: #6c757d;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+}
+
+.password{
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin-right: 165px;
+}
+.password input{
+	padding-left: 10px;
+	margin-top: 20px;
+	width: 500px;
+	height: 45px;
+}
+.password button{
+	margin-top: 15px;
 	height: 45px;
 	background-color: #6c757d;
 	color: #fff;
